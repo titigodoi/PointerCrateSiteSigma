@@ -1,0 +1,69 @@
+main{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(to left, rgb(43, 157, 244), rgb(162, 25, 25));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 24px;
+}
+
+h1{
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    width: 100%;
+    background: #2A3142;
+    color: #ffffff;
+    border: 2px solid #000000;
+    border-bottom: none;
+    margin: 0;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0;
+}
+
+h2{
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    width: 100%;
+    background: #2A3142;
+    color: #ffffff;
+    border: 2px solid #000000;
+    border-top: none;
+    margin: 0;
+    padding: 10px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    border-radius: 0 0 16px 16px;
+    box-sizing: border-box;
+}
+
+.imagem_geometrydash{
+    background-image: url('./assets/geometry-dash-game-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 90%;
+    max-width: 400px;
+    height: 200px;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+button{
+    margin-top: 16px;
+    width: 80%;
+    max-width: 350px;
+    height: 60px;
+    background: #2A3142;
+    color: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 16px;
+    overflow: hidden;
+}
